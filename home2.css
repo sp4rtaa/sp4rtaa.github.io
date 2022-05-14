@@ -1,0 +1,127 @@
+body{
+}
+
+.logoleft{
+  width: 8%;
+  float: left;
+}
+
+.logoright{
+  width: 7%;
+  float: right;
+}
+
+.toppart{
+  margin-bottom: 3%
+}
+
+.secondheader{
+text-align: left;
+}
+
+
+.Mainbox{
+  background-color: #FFA1A1;
+ border: 4px solid black;
+ display: grid;
+  width: 90%;
+}
+
+.topbox{
+  width: 100%;
+}
+
+.firstimage{
+  display: block;
+  float: left;
+  width: 30%;
+  float: left;
+  margin: 5% auto auto 5%;
+}
+
+
+.topbox > p{
+ display: inline-block;
+  margin: 6% auto 6% 3%;
+  width: 50%;
+ float: left;
+}
+
+
+.botbox{
+  width: 100%;
+
+}
+
+.secondimage{
+  display: block;
+  width: 30%;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+
+.botbox > p {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  margin: 3% 5% 3% auto;
+
+ }
+
+.outline{
+  background-color: lightgreen;
+}
+
+.tableline{
+  border: solid;
+  bordercolor: black;
+}
+
+.adresslogo{
+}
+
+.adresslogo > img{
+text-align: center;
+}
+
+
+.nav{
+  margin-left: 15%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  border: 2px;
+  bottom: 0;
+}
+
+
+
+
+.navbar {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: orange;
+  font-size: 20px;
+  text-align: center;
+  bottom: 0;
+}
+
+.navbar a {
+  padding: 12px;
+  text-decoration: none;
+  width: 25%;
+}
+
+.navbar a:hover {
+  background-color: #FF8E00;
+}
+
+.navbar a.active {
+  background-color: #EB5353;
+}

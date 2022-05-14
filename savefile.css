@@ -1,0 +1,31 @@
+.top1{
+  float: left;
+}
+
+.top2 {
+  float: right;
+
+  .outline{
+    background-color: lightgreen;
+  }
+
+  .tableline{
+    border: solid;
+    bordercolor: black;
+  }
+
+  .adresslogo{
+  }
+
+  .adresslogo > img{
+  text-align: center;
+  }
+
+
+  .navbar{
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

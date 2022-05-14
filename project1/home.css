@@ -1,0 +1,77 @@
+
+
+
+.top1{
+  float: left;
+}
+
+.top2 {
+  float: right;
+}
+
+.header {
+  margin-bottom: 10%;
+}
+
+.bigbox{
+  background-color: lightpink;
+  border-style: solid;
+  height: 60%;
+  border-width: thin;
+}
+
+.topbox > p{
+  float: left;
+  width: 60%;
+}
+.topbox{
+  width: 100%;
+  height: 200px;
+}
+
+.imgbox{
+  width:30%;
+  float:left;
+}
+.imgbox > img{
+  /* margin-top: 2%;
+  margin-left: 9%; */
+  width: 60%;
+  float: left;
+}
+
+.botbox{
+  width: 100%;
+  height: 200px
+
+}
+.botbox > img{
+  margin-right: 9%;
+  width: 20%;
+  float: right;
+}
+
+.outline{
+  background-color: lightgreen;
+}
+
+.tableline{
+  border: solid;
+  bordercolor: black;
+}
+
+.adresslogo{
+}
+
+.adresslogo > img{
+text-align: center;
+}
+
+
+.navbar{
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
